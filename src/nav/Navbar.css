@@ -89,12 +89,6 @@ header {
   color: red;
 }
 
-.content {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-}
 
 .icon {
   width: 40px;
@@ -121,6 +115,9 @@ header {
 @media (max-width: 768px) {
   .icon {
     display: block;
+  }
+  .header{
+    justify-content: space-between;
   }
 
   .nav .nav-link {
